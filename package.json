@@ -1,0 +1,20 @@
+{
+  "name": "line-shipping-bot",
+  "version": "1.0.0",
+  "description": "LINE bot: shipping/order assistant with photo intake, Flex Message status cards, and Firestore + Google Sheets backend",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.3.1",
+    "googleapis": "^140.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
